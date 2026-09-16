@@ -14,6 +14,8 @@ const calcFare = (distanceKm) => {
   return 10 + (roundedDistance - 2) * 2;
 };
 
+module.exports = calcFare;
+
 console.log(calcFare(1.5));
 console.log(calcFare(2));
 console.log(calcFare(7.2));
